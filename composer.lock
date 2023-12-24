@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "005b953ff0aba3dd13c62d91375d5c61",
+    "content-hash": "e7211991dd63351bcbcd7215ac908183",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -905,6 +905,66 @@
             }
         },
         {
+            "name": "drupal/bootstrap_styles",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_styles.git",
+                "reference": "1.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_styles-1.1.5.zip",
+                "reference": "1.1.5",
+                "shasum": "30b06da7e84424d404ad8fb5575dda634f80757e"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10",
+                "drupal/media_library_form_element": "^2.0",
+                "drupal/media_library_theme_reset": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.5",
+                    "datestamp": "1695835243",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Amira Dowidar",
+                    "homepage": "https://www.drupal.org/user/3092603"
+                },
+                {
+                    "name": "mahmoud-zayed",
+                    "homepage": "https://www.drupal.org/user/2947001"
+                },
+                {
+                    "name": "Rajab Natshah",
+                    "homepage": "https://www.drupal.org/user/1414312"
+                }
+            ],
+            "description": "Add a plugins builder and a collection of reusable plugins to the Layout Builder module.",
+            "homepage": "https://www.drupal.org/project/bootstrap_styles",
+            "keywords": [
+                "Bootstrap",
+                "Drupal",
+                "Grid",
+                "Layout Builder"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap_styles"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "10.1.6",
             "source": {
@@ -1341,6 +1401,261 @@
             }
         },
         {
+            "name": "drupal/layout_builder_additions",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_additions.git",
+                "reference": "1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_additions-1.0.4.zip",
+                "reference": "1.0.4",
+                "shasum": "ad6639edad0a195d2c4b937b3ae38555d2ed4cfd"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "suggest": {
+                "drupal/layout_builder_modal": "Provides a modal in the Layout Builder UI for adding and configuring existing blocks."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.4",
+                    "datestamp": "1689306687",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Rich Lawson (rklawson)",
+                    "homepage": "https://www.drupal.org/u/rklawson",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jason Thompson (galactus86)",
+                    "homepage": "https://www.drupal.org/u/galactus86",
+                    "role": "Co-maintainer"
+                }
+            ],
+            "description": "Provides additions for the core Layout Builder module that improves the UI and experience.",
+            "homepage": "https://drupal.org/project/layout_builder_additions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_additions",
+                "issues": "https://www.drupal.org/project/issues/layout_builder_additions",
+                "docs": "https://www.drupal.org/project/layout_builder_additions"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_backgrounds",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_backgrounds.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_backgrounds-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "3341fa66008f51554bc4a3e3579d6b22c63ff34b"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10",
+                "drupal/media_library_form_element": "^2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1668009263",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Komlenic (komlenic)",
+                    "homepage": "https://www.drupal.org/u/komlenic",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Adds a background field to Layout Builder layouts.",
+            "homepage": "https://www.drupal.org/project/layout_builder_backgrounds",
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_backgrounds"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_base",
+            "version": "1.0.0-beta18",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_base.git",
+                "reference": "8.x-1.0-beta18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_base-8.x-1.0-beta18.zip",
+                "reference": "8.x-1.0-beta18",
+                "shasum": "d8b8133644599869a2c06e90001eac5de9a07f76"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta18",
+                    "datestamp": "1695466226",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "phjou",
+                    "homepage": "https://www.drupal.org/user/3344054"
+                }
+            ],
+            "description": "Module that provides flexible layouts to extend in order to build complex pages.",
+            "homepage": "https://www.drupal.org/project/layout_builder_base",
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_base"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_blocks",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_blocks.git",
+                "reference": "1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_blocks-1.1.1.zip",
+                "reference": "1.1.1",
+                "shasum": "7ff492dd75b25a37b2281de5cedbe75686b8f264"
+            },
+            "require": {
+                "drupal/bootstrap_styles": "^1.1",
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.1",
+                    "datestamp": "1702397566",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Amira Dowidar",
+                    "homepage": "https://www.drupal.org/user/3092603"
+                },
+                {
+                    "name": "mahmoud-zayed",
+                    "homepage": "https://www.drupal.org/user/2947001"
+                },
+                {
+                    "name": "Rajab Natshah",
+                    "homepage": "https://www.drupal.org/user/1414312"
+                }
+            ],
+            "description": "Add UI styles support to blocks from Layout Builder module.",
+            "homepage": "https://www.drupal.org/project/layout_builder_blocks",
+            "keywords": [
+                "Drupal",
+                "Layout Builder",
+                "UI",
+                "style"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_blocks"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_component_attributes",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_component_attributes.git",
+                "reference": "2.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_component_attributes-2.1.3.zip",
+                "reference": "2.1.3",
+                "shasum": "7c02269105a2bc0485d474ecfefaa4bd1c5cabca"
+            },
+            "require": {
+                "drupal/core": "^9.0|^10.0",
+                "neilime/php-css-lint": "^2.0|^3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.3",
+                    "datestamp": "1695059373",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Burge",
+                    "homepage": "https://www.drupal.org/user/1826152"
+                }
+            ],
+            "description": "Allows editors to add HTML attributes to Layout Builder components (blocks)",
+            "homepage": "https://drupal.org/project/layout_builder_component_attributes",
+            "support": {
+                "source": "https://cgit.drupalcode.org/layout_builder_component_attributes",
+                "issues": "https://drupal.org/project/issues/layout_builder_component_attributes"
+            }
+        },
+        {
             "name": "drupal/masquerade",
             "version": "2.0.0-rc4",
             "source": {
@@ -1409,6 +1724,152 @@
                 "source": "https://git.drupal.org/project/masquerade.git",
                 "issues": "https://www.drupal.org/project/issues/masquerade",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/media_library_form_element",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_library_form_element.git",
+                "reference": "2.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_library_form_element-2.0.6.zip",
+                "reference": "2.0.6",
+                "shasum": "91363cbea0d1895fbf0fbb9640d70fee47775111"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "require-dev": {
+                "drupal/webform": "6.2.x-dev@dev"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.6",
+                    "datestamp": "1674069446",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kim Kennof",
+                    "homepage": "https://www.drupal.org/u/nightlife2008",
+                    "email": "kim.kennof@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "AUSY, a randstad company",
+                    "homepage": "https://www.ausy.be",
+                    "email": "info@ausy.be",
+                    "role": "Sponsor"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                },
+                {
+                    "name": "nightlife2008",
+                    "homepage": "https://www.drupal.org/user/333515"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                }
+            ],
+            "description": "This module provides a Media Library Form API element to be used in all sorts of forms.",
+            "homepage": "https://www.drupal.org/project/media_library_form_element",
+            "keywords": [
+                "Drupal",
+                "Form API",
+                "Media",
+                "Media Library"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/media_library_form_element",
+                "issues": "https://www.drupal.org/project/issues/media_library_form_element"
+            }
+        },
+        {
+            "name": "drupal/media_library_theme_reset",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_library_theme_reset.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_library_theme_reset-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "d0e26fb6a0e4b59ff3410bd3f3781165cc27b935"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1670618180",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "gravelpot",
+                    "homepage": "https://www.drupal.org/user/748208"
+                },
+                {
+                    "name": "Jeff Cardwell",
+                    "homepage": "https://www.drupal.org/user/2913129"
+                },
+                {
+                    "name": "lreynaga",
+                    "homepage": "https://www.drupal.org/user/3400232"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                },
+                {
+                    "name": "mmarler",
+                    "homepage": "https://www.drupal.org/user/500192"
+                },
+                {
+                    "name": "ricksta",
+                    "homepage": "https://www.drupal.org/user/311042"
+                },
+                {
+                    "name": "texas_tater",
+                    "homepage": "https://www.drupal.org/user/753614"
+                },
+                {
+                    "name": "utexas",
+                    "homepage": "https://www.drupal.org/user/3716409"
+                }
+            ],
+            "description": "Display the Media Library with an administrative theme",
+            "homepage": "https://www.drupal.org/project/media_library_theme_reset",
+            "support": {
+                "source": "https://git.drupalcode.org/project/media_library_theme_reset"
             }
         },
         {
@@ -1918,6 +2379,80 @@
                 "source": "https://github.com/mck89/peast/tree/v1.15.4"
             },
             "time": "2023-08-12T08:29:29+00:00"
+        },
+        {
+            "name": "neilime/php-css-lint",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neilime/php-css-lint.git",
+                "reference": "08adc7b55af6ae5bf671ac5b105620dc6e6c55c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neilime/php-css-lint/zipball/08adc7b55af6ae5bf671ac5b105620dc6e6c55c0",
+                "reference": "08adc7b55af6ae5bf671ac5b105620dc6e6c55c0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "pcov/clobber": "^2.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpunit/phpunit": "^9.5.27",
+                "slam/phpstan-laminas-framework": "^0.12",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "bin": [
+                "scripts/php-css-lint"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CssLint\\": "src/CssLint"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Neilime",
+                    "homepage": "https://github.com/neilime",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Powerful & memory efficient CSS linter for PHP",
+            "homepage": "https://neilime.github.io/php-css-lint/",
+            "keywords": [
+                "css",
+                "lint",
+                "linter",
+                "syntax",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/neilime/php-css-lint/issues",
+                "source": "https://github.com/neilime/php-css-lint/tree/v3.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/neilime",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-06-19T16:35:21+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -5131,6 +5666,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "drupal/layout_builder_base": 10,
         "drupal/masquerade": 5
     },
     "prefer-stable": true,

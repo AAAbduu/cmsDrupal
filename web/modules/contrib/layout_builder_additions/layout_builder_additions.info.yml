@@ -1,0 +1,12 @@
+name: Layout Builder Additions
+type: module
+description: 'Provides additions for the core Layout Builder module that improves the UI and experience.'
+package: Layout Builder
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:layout_builder
+
+# Information added by Drupal.org packaging script on 2023-07-14
+version: '1.0.4'
+project: 'layout_builder_additions'
+datestamp: 1689306690

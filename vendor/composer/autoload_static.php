@@ -98,6 +98,7 @@ class ComposerStaticInitba7cc95eb630d85a9be2e848d65d7013
         ),
         'C' => 
         array (
+            'CssLint\\' => 8,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
         ),
@@ -309,6 +310,10 @@ class ComposerStaticInitba7cc95eb630d85a9be2e848d65d7013
         array (
             0 => __DIR__ . '/..' . '/doctrine/common/src',
             1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+        ),
+        'CssLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/neilime/php-css-lint/src/CssLint',
         ),
         'Composer\\Semver\\' => 
         array (
