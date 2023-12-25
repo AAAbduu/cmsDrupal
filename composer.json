@@ -17,18 +17,24 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/better_exposed_filters": "^6.0",
         "drupal/bootstrap_barrio": "^5.5",
+        "drupal/commerce": "^2.36",
+        "drupal/commerce_add_to_cart_link": "^2.0",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
         "drupal/devel": "^5.0",
         "drupal/drupal_slider": "^2.1",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/layout_builder_additions": "^1.0",
         "drupal/layout_builder_backgrounds": "^1.0",
         "drupal/layout_builder_base": "^1.0@beta",
         "drupal/layout_builder_blocks": "^1.1",
         "drupal/layout_builder_component_attributes": "^2.1",
-        "drupal/masquerade": "^2.0@RC"
+        "drupal/masquerade": "^2.0@RC",
+        "drupal/search_api": "^1.31",
+        "drupal/search_api_solr": "^4.3"
     },
     "conflict": {
         "drupal/drupal": "*"
