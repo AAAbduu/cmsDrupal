@@ -21,6 +21,7 @@
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/commerce": "^2.36",
         "drupal/commerce_add_to_cart_link": "^2.0",
+        "drupal/conditional_fields": "^4.0@alpha",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
@@ -36,6 +37,7 @@
         "drupal/search_api": "^1.31",
         "drupal/search_api_solr": "^4.3",
         "drupal/vani": "^10.0",
+        "drupal/views_conditional": "^1.9",
         "drupal/webform": "^6.2"
     },
     "conflict": {
