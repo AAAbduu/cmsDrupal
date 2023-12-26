@@ -35,7 +35,8 @@
         "drupal/masquerade": "^2.0@RC",
         "drupal/search_api": "^1.31",
         "drupal/search_api_solr": "^4.3",
-        "drupal/vani": "^10.0"
+        "drupal/vani": "^10.0",
+        "drupal/webform": "^6.2"
     },
     "conflict": {
         "drupal/drupal": "*"
