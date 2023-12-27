@@ -1,0 +1,7 @@
+sAdoptions.adoptions:
+  path: '/adoptions'
+  defaults:
+    _controller: '\Drupal\sAdoptions\Controller\AdoptionsController::adoptions'
+    _title: 'Adoptions'
+  requirements:
+    _permission: 'access content'

@@ -38,7 +38,8 @@
         "drupal/search_api_solr": "^4.3",
         "drupal/vani": "^10.0",
         "drupal/views_conditional": "^1.9",
-        "drupal/webform": "^6.2"
+        "drupal/webform": "^6.2",
+        "drush/drush": "^12.4"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -1,0 +1,9 @@
+<?php
+
+function sAdoptions_theme($existing, $type, $theme, $path) {
+    return [
+        'sAdoptions' => [
+            'variables' => ["adoption" => NULL]
+        ],
+    ];
+}

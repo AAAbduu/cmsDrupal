@@ -1,0 +1,20 @@
+
+
+<div class="adoptions">
+    {% for adopt in adoption %}
+        <div class="adoption-node">
+            <h2>{{ adopt.title.value }}</h2>
+           {% set image_url = file_url(adopt.field_pet_images[0].entity.uri.value) %}
+            
+            <!-- Añadir enlace a la imagen -->
+            <a href="{{ path('entity.node.canonical', {'node': adopt.id}) }}">
+                <img src="{{ image_url }}" alt="{{ img.alt }}">
+            </a>
+            <p>{{ adopt.body.value|split(' ')|slice(0, 20)|join(' ') }}</p>
+            <p>Pet adopted: {{adopt.field_pet_you_adopt.entity.label}}</p>
+            <p>Pet Age: {{ adopt.field_pet_age.value }}</p>
+        </div>
+    {% endfor %}
+
+</div>
+
