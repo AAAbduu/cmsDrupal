@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '162cbc919434677e7045939fd983b866a04800f5',
+        'reference' => 'd48907fecc705304e004537e0030ce300bb6802a',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -214,6 +214,15 @@
             'reference' => '63fee8c33bef740db6730eb2a750cd3da6495603',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/persistence',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'dragonmantank/cron-expression' => array(
+            'pretty_version' => 'v3.3.3',
+            'version' => '3.3.3.0',
+            'reference' => 'adfb1f505deb6384dc8b39804c5065dd3c8c8c0a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dragonmantank/cron-expression',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -541,6 +550,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/eca' => array(
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'reference' => '1.1.4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/eca',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/entity' => array(
             'pretty_version' => '1.4.0',
             'version' => '1.4.0.0',
@@ -688,7 +706,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '162cbc919434677e7045939fd983b866a04800f5',
+            'reference' => 'd48907fecc705304e004537e0030ce300bb6802a',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -874,6 +892,21 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'mtdowling/cron-expression' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '^1.0',
+            ),
+        ),
+        'mtownsend/xml-to-array' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '0734720a8462dba36d90fb8b2723bf46af0091f4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mtownsend/xml-to-array',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'neilime/php-css-lint' => array(
             'pretty_version' => 'v3.2.0',
             'version' => '3.2.0.0',
@@ -991,8 +1024,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.1|2.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(
@@ -1442,6 +1475,15 @@
             'reference' => 'c8e5dbe65caef285fec8057a4c718a0d4138d1ee',
             'type' => 'library',
             'install_path' => __DIR__ . '/../webflo/drupal-finder',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'webmozart/assert' => array(
+            'pretty_version' => '1.11.0',
+            'version' => '1.11.0.0',
+            'reference' => '11cb2199493b2f8a3b53e7f19068fc6aac760991',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../webmozart/assert',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

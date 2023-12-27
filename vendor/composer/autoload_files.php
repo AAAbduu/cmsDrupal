@@ -22,5 +22,6 @@ return array(
     'def43f6c87e4f8dfd0c9e1b1bab14fe8' => $vendorDir . '/symfony/polyfill-iconv/bootstrap.php',
     '2f69d3914119f042cca9e44442d5ce95' => $baseDir . '/web/core/includes/bootstrap.inc',
     '23c18046f52bef3eea034657bafda50f' => $vendorDir . '/symfony/polyfill-php81/bootstrap.php',
+    '029bffbd721800038bcfaf4916fa491c' => $vendorDir . '/mtownsend/xml-to-array/src/helpers.php',
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
 );
