@@ -1,0 +1,4 @@
+sAdoptions-style:
+  css:
+    theme:
+      assets/css/sAdoptions.css: {}

@@ -1,0 +1,31 @@
+.adoptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    justify-content: center;
+}
+
+.adoption-node {
+    border: 1px solid #ccc; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.adoption-node img {
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.adoption-node h2 {
+    font-weight: bold;
+}
+
+.adoption-node p:nth-child(3) {
+    font-style: italic;
+}
+
+.adoption-node p:last-child {
+    font-weight: bold;
+}
